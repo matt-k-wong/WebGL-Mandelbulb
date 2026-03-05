@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pro Mandelbulb Explorer</title>
+    <style>
+        body { margin: 0; background: #000; color: white; font-family: sans-serif; overflow: hidden; }
+        canvas { display: block; width: 100vw; height: 100vh; cursor: grab; }
+        canvas:active { cursor: grabbing; }
+        #ui-container { position: absolute; top: 15px; right: 15px; z-index: 10; }
+        #instructions { position: absolute; bottom: 15px; left: 15px; background: rgba(0,0,0,0.6); padding: 10px; border-radius: 5px; pointer-events: none; color: #aaa; font-size: 12px; }
+    </style>
+    <!-- Include Tweakpane for the UI -->
+    <script src="https://cdn.jsdelivr.net/npm/tweakpane@3.1.1/dist/tweakpane.min.js"></script>
+</head>
+<body>
+    <div id="ui-container"></div>
+    <div id="instructions">Drag to Rotate | Scroll to Zoom</div>
+    <canvas id="glCanvas"></canvas>
+    <script src="main.js"></script>
+</body>
+</html>
