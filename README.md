@@ -1,4 +1,4 @@
-# WebGL2 Mandelbulb Explorer
+# WebGL-Mandelbulb
 
 A real-time, interactive 3D Mandelbulb fractal renderer built entirely from scratch using WebGL2 and Raymarching (Sphere Tracing).
 
