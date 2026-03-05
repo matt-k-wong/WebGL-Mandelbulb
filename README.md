@@ -1,5 +1,7 @@
 # WebGL-Mandelbulb
 
+![Mandelbulb Screenshot](./Mandelbulb.png)
+
 A real-time, interactive 3D Mandelbulb fractal renderer built entirely from scratch using WebGL2 and Raymarching (Sphere Tracing).
 
 ## Features
